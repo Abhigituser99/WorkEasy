@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* html root: define base font-size, scroll, font-family */
+html {
+  font-size: 16px; /* 1rem = 16px; easy scaling */
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+/* body: global background, text color, font, height */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+   @apply font-sans bg-gray-50 text-gray-900 antialiased;
+
+}
+
+/* Make #root take full viewport space */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
