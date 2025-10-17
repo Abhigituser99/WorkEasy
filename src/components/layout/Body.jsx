@@ -2,6 +2,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import SignIn from "../../pages/SignIn";
+import SignUp from "../../pages/SignUp/SignUp";
 
 
 const Body = () => {
@@ -11,8 +12,8 @@ const Body = () => {
          <Routes>
           <Route path="/" element={<Navigate to="/signin" replace />} />
           <Route path="/signin" element={<SignIn />} />
-          {/* <Route path="/signup" element={<Signup />} />
-          <Route path="/dashboard" element={<Dashboard />} /> */}
+          <Route path="/signup" element={<SignUp />} />
+          {/* <Route path="/dashboard" element={<Dashboard />} /> */}
           {/* add more routes as you build new pages */}
         </Routes>
         </div>

@@ -30,7 +30,7 @@ const SignIn = () => {
   };
 
   return (
-    <div className="w-full h-full flex felx-col items-center justify-center ">
+    <div className="w-full h-full flex flex-col items-center justify-center ">
 
     
     <div className="bg-white rounded-2xl shadow p-6 md:p-8 w-full max-w-md">
