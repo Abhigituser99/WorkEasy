@@ -195,7 +195,7 @@ const SignUp = () => {
               listType="picture-circle"
               className="avatar-uploader"
               showUploadList={false}
-              action="https://660d2bd96ddfa2943b33731c.mockapi.io/api/upload"
+              action="http://localhost:3000/api/upload/"
               beforeUpload={beforeUpload}
               onChange={handleChange}
             >
